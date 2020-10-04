@@ -1,0 +1,15 @@
+#### CUSTOMER EXPERIENCE IS OMNI-CHANNEL
+
+Over the last few months, the way we communicate, work and drive business growth have all changed significantly. Technology that was once seen as a ‘nice-to-have’ is now essential to engaging customers and empowering employees, with many businesses proving that deploying new tools and platforms can take days rather than weeks or months.
+
+What’s also changed, is the importance of agility. While the role of agility in meeting customer needs and staying competitive was always important, the recent pandemic has highlighted the critical impact agility has in the success of a business. In today’s world, agility is about much more than just quickly adapting to market changes. It is about enabling businesses to swiftly reinvent their business and set themselves up for success in a rapidly changing, ambiguous and turbulent environment.
+
+What remains unchanged are customer expectations for exceptional experiences. Companies need to be agile in order to continue delivering this in any business dynamic. In the contact center setting, true business agility must enable organizations to fuel rapid innovation, gain visibility and insights on customer interactions and drive the workforce to continuously deliver outstanding experiences.
+
+When supported with the right technologies, agility can serve as a springboard for rapid innovation, while enabling businesses to really understand their customers and empowering the workforce to progress forward and meet changing needs. To achieve this, organizations must adopt an Agile Customer Experience approach
+
+The journey to Agile Customer Service starts by creating a strong and flexible true cloud-native foundation that empowers rapid change without any disruption to customer service. By adopting this approach, contact centers will be able to combine the levels of speed, elasticity and self-service required to adapt to different situations and drive success in an ever-changing world.
+
+This includes extending contact center capabilities to any environment, whether that’s with agents working from home, in the office, or anywhere for that matter. No matter where they are based, a true cloud-native approach also allows employees to interact with customers through an omnichannel environment combining both voice and digital channels. Omnichannel routing solutions enable interactions between customers and agents to be seamless across all channels. What this means is that a single agent can interact with a customer across all channels and should there be a need for transfer, the context of the interaction is maintained so the next agent can pick up right where the last one left off. Both customers and agents are much more satisfied as a result since those annoying transfers of the past are eliminated.
+
+We believe that AWS provides the building blocks for creating this omni-channel agile customer experience and we are looking forward to helping you along this journey!
