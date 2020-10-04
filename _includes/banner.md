@@ -1,2 +1,2 @@
-# AWS Connect Specialists
+# Amazon Connect Specialists
 ## IN2CLOUD
