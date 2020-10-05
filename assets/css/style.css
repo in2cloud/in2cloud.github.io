@@ -2386,7 +2386,7 @@ body {
 
 .banner-state {
     height: 100vh;
-    background-image: url("../img/banner/menu_banner.jpg");
+    background-image: url("../img/banners/menu_banner.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 50%; 
@@ -2395,7 +2395,7 @@ body {
 
 .full-banner {
     position: relative;
-    background-image: url("../img/banner/creative-banner.jpg");
+    background-image: url("../img/banners/creative-banner.jpg");
     background-position: 50% 50%; 
     background-size: cover;
 }
@@ -5279,7 +5279,7 @@ address p {
 .travel-booking {
     position: relative;
     height: 100vh; 
-    background-image: url("../img/banner/travel.jpg");
+    background-image: url("../img/banners/travel.jpg");
 }
 
 .travel-form-bg {
@@ -5697,15 +5697,15 @@ address p {
  Background Images
  ===============================================*/
 .home-banner {
-    background-image: url("../img/banner/index-banner-2.jpg") !important;
+    background-image: url("../img/banners/index-banner-2.jpg") !important;
 }
 
 .creative-banner {
-    background-image: url("../img/banner/creative-banner.jpg") !important;
+    background-image: url("../img/banners/creative-banner.jpg") !important;
 }
 
 .banner-catering {
-    background-image: url("../img/banner/catering.jpg") !important;
+    background-image: url("../img/banners/catering.jpg") !important;
 }
 
 .banner-hotel {
@@ -5713,107 +5713,107 @@ address p {
 }
 
 .banner-ban2 {
-    background-image: url("../img/banner/ban2.jpg") !important;
+    background-image: url("../img/banners/ban2.jpg") !important;
 }
 
 .banner-01 {
-    background-image: url("../img/banner/01.jpg") !important;
+    background-image: url("../img/banners/01.jpg") !important;
 }
 
 .banner-02 {
-    background-image: url("../img/banner/02.jpg") !important;
+    background-image: url("../img/banners/02.jpg") !important;
 }
 
 .banner-04 {
-    background-image: url("../img/banner/04.jpg") !important;
+    background-image: url("../img/banners/04.jpg") !important;
 }
 
 .banner-12 {
-    background-image: url("../img/banner/12.jpg") !important;
+    background-image: url("../img/banners/12.jpg") !important;
 }
 
 .banner-13 {
-    background-image: url("../img/banner/13.jpg") !important;
+    background-image: url("../img/banners/13.jpg") !important;
 }
 
 .banner-14 {
-    background-image: url("../img/banner/14.jpg") !important;
+    background-image: url("../img/banners/14.jpg") !important;
 }
 
 .banner-15 {
-    background-image: url("../img/banner/15.jpg") !important;
+    background-image: url("../img/banners/15.jpg") !important;
 }
 
 .banner-16 {
-    background-image: url("../img/banner/16.jpg") !important;
+    background-image: url("../img/banners/16.jpg") !important;
 }
 
 .banner-17 {
-    background-image: url("../img/banner/17.jpg") !important;
+    background-image: url("../img/banners/17.jpg") !important;
 }
 
 .banner-19 {
-    background-image: url("../img/banner/19.jpg") !important;
+    background-image: url("../img/banners/19.jpg") !important;
 }
 
 .banner-20 {
-    background-image: url("../img/banner/20.jpg") !important;
+    background-image: url("../img/banners/20.jpg") !important;
 }
 
 .banner-22 {
-    background-image: url("../img/banner/22.jpg") !important;
+    background-image: url("../img/banners/22.jpg") !important;
 }
 
 .banner-23 {
-    background-image: url("../img/banner/23.jpg") !important;
+    background-image: url("../img/banners/23.jpg") !important;
 }
 
 .banner-24 {
-    background-image: url("../img/banner/24.jpg") !important;
+    background-image: url("../img/banners/24.jpg") !important;
 }
 
 .banner-25 {
-    background-image: url("../img/banner/25.jpg") !important;
+    background-image: url("../img/banners/25.jpg") !important;
 }
 
 .banner-26 {
-    background-image: url("../img/banner/26.jpg") !important;
+    background-image: url("../img/banners/26.jpg") !important;
 }
 
 .banner-27 {
-    background-image: url("../img/banner/27.jpg") !important;
+    background-image: url("../img/banners/27.jpg") !important;
 }
 
 .banner-28 {
-    background-image: url("../img/banner/28.jpg") !important;
+    background-image: url("../img/banners/28.jpg") !important;
 }
 
 .banner-07 {
-    background-image: url("../img/banner/07.jpg") !important;
+    background-image: url("../img/banners/07.jpg") !important;
 }
 
 .banner-08 {
-    background-image: url("../img/banner/08.jpg") !important;
+    background-image: url("../img/banners/08.jpg") !important;
 }
 
 .banner-09 {
-    background-image: url("../img/banner/09.jpg") !important;
+    background-image: url("../img/banners/09.jpg") !important;
 }
 
 .banner-10 {
-    background-image: url("../img/banner/10.jpg") !important;
+    background-image: url("../img/banners/10.jpg") !important;
 }
 
 .banner-11 {
-    background-image: url("../img/banner/11.jpg") !important;
+    background-image: url("../img/banners/11.jpg") !important;
 }
 
 .banner-05 {
-    background-image: url("../img/banner/05.jpg") !important;
+    background-image: url("../img/banners/05.jpg") !important;
 }
 
 .banner-06 {
-    background-image: url("../img/banner/06.jpg") !important;
+    background-image: url("../img/banners/06.jpg") !important;
 }
 
 .banner-p {
@@ -5829,31 +5829,31 @@ address p {
 }
 
 .banner-box1 {
-    background-image: url("../img/banner/box_banner1.jpg") !important;
+    background-image: url("../img/banners/box_banner1.jpg") !important;
 }
 
 .banner-box2 {
-    background-image: url("../img/banner/box_banner2.jpg") !important;
+    background-image: url("../img/banners/box_banner2.jpg") !important;
 }
 
 .banner-box-i {
-    background-image: url("../img/banner/box_banner.jpg") !important;
+    background-image: url("../img/banners/box_banner.jpg") !important;
 }
 
 .banner-flex3 {
-    background-image: url("../img/banner/flex/flex3.jpg") !important;
+    background-image: url("../img/banners/flex/flex3.jpg") !important;
 }
 
 .banner-demo {
-    background-image: url("../img/banner/demo.jpg") !important;
+    background-image: url("../img/banners/demo.jpg") !important;
 }
 
 .banner-onedot {
-    background-image: url("../img/banner/onedot.jpg") !important;
+    background-image: url("../img/banners/onedot.jpg") !important;
 }
 
 .banner-02p {
-    background-image: url("../img/banner/02p.jpg") !important;
+    background-image: url("../img/banners/02p.jpg") !important;
 }
 
 .banner-app {
