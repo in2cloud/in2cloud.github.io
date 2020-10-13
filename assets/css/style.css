@@ -1143,7 +1143,7 @@ pre {
     .l-navbar_t-dark,
     .l-navbar_t-semi-trans,
     .l-navbar_t-dark-trans {
-        background: #0a0a0a;
+        background: #10103B;
     }
 }
 
@@ -1220,7 +1220,7 @@ pre {
         background: #fff;
     }
     .l-navbar_t-dark {
-        background: #0a0a0a;
+        background: #10103B;
     }
     .l-navbar_t-dark .menuzord-menu > li > a,
     .l-navbar_t-semi-trans .menuzord-menu > li > a,
@@ -1285,7 +1285,7 @@ pre {
     }
     .l-navbar-wrapper_has-sticky .l-navbar_t-semi-trans,
     .l-navbar-wrapper_has-sticky .l-navbar_t-dark-trans {
-        background: #0a0a0a;
+        background: #10103B;
     }
     .l-navbar-wrapper_has-sticky .l-navbar_t-light-trans {
         background: #fff;
