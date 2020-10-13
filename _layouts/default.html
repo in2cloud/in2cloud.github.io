@@ -9,6 +9,7 @@
 
     <!--favicon icon-->
     <link rel="icon" type="image/png" href="assets/favicon/favicon-96x96.png">
+    <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/assets/faviconapple-icon-72x72.png">
@@ -26,11 +27,12 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    <meta name="apple-mobile-web-app-title" content="in2cloud">
 
     <title>in2cloud</title>
 
     <!--common style-->
-    <link href='https://fonts.googleapis.com/css?family=Abel|Source+Sans+Pro:400,300,300italic,400italic,600,600italic,700,700italic,900,900italic,200italic,200' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Abel|Source+Sans+Pro:400,300,300italic,400italic,600,600italic,700,700italic,900,900italic,200italic,200' rel='stylesheet' type='text/css'>
 
     <!-- inject:css -->
     <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
@@ -43,6 +45,7 @@
     <link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/shortcodes.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
     <link rel="stylesheet" href="assets/css/default-theme.css">
     <!-- endinject -->
 
@@ -55,54 +58,712 @@
 </head>
 
 <body>
-<!--  preloader start -->
-<div id="tb-preloader">
-    <div class="tb-preloader-wave"></div>
-</div>
-<!-- preloader end -->
-
-<div class="wrapper" id="home">
-
-    <!--hero section-->
-    <div id="fullscreen-banner" class="parallax text-center vertical-align banner-01">
-        <div class="container-mid">
-            <div class="container">
-            </div>
-        </div>
+    <!--  preloader start -->
+    <div id="tb-preloader">
+        <div class="tb-preloader-wave"></div>
     </div>
-    <!--hero section-->
-</div>
+    <!-- preloader end -->
+
+    <div class="wrapper" id="home">
+
+        <!--header start-->
+        <header class="l-header l-header_overlay">
+
+            <div class="l-navbar l-navbar_t-dark-trans js-navbar-sticky navbar-colour">
+                <div class="container-fluid">
+                    <nav class="menuzord js-primary-navigation" role="navigation" aria-label="Primary Navigation">
+
+                        <!--logo start-->
+                        <a href="default.html" class="logo-brand">
+                            <img class="retina" src="assets/img/logo-dark.png" alt="in2cloud">
+                        </a>
+                        <!--logo end-->
+
+                        <!--mega menu start-->
+                        <ul class="menuzord-menu pull-right op-nav c-nav_s-standard">
+                            <li class="active">
+                                <a href="#home">Home</a>
+                            </li>
+                            <li class="">
+                                <a href="#vision">Vision</a>
+                            </li>
+                            <li class="">
+                                <a href="#services">What we do</a>
+                            </li>
+                            <li class="">
+                                <a href="#skills">Why us</a>
+                            </li>
+                            <li class="">
+                                <a href="#experience">Our work</a>
+                            </li>
+                            <li class="">
+                                <a href="#team">Who we are</a>
+                            </li>
+                            <li class="">
+                                <a href="#contact">Contact</a>
+                            </li>
+
+                        </ul>
+                        <!--mega menu end-->
+
+                    </nav>
+                </div>
+            </div>
+
+        </header>
+        <!--header end-->
 
 
-<!-- inject:js -->
-<script src="assets/vendor/modernizr/modernizr.js"></script>
-<script src="assets/vendor/jquery/jquery-1.10.2.min.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
-<script src="assets/vendor/bootstrap-validator/validator.min.js"></script>
-<script src="assets/vendor/breakpoint/breakpoint.js"></script>
-<script src="assets/vendor/count-to/jquery.countTo.js"></script>
-<script src="assets/vendor/countdown/jquery.countdown.js"></script>
-<script src="assets/vendor/easing/jquery.easing.1.3.js"></script>
-<script src="assets/vendor/easy-pie-chart/jquery.easypiechart.min.js"></script>
-<script src="assets/vendor/elasic-slider/jquery.eislideshow.js"></script>
-<script src="assets/vendor/flex-slider/jquery.flexslider-min.js"></script>
-<script src="assets/vendor/gmap/jquery.gmap.min.js"></script>
-<script src="assets/vendor/images-loaded/imagesloaded.js"></script>
-<script src="assets/vendor/isotope/jquery.isotope.js"></script>
-<script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-<script src="assets/vendor/mailchimp/jquery.ajaxchimp.min.js"></script>
-<script src="assets/vendor/menuzord/menuzord.js"></script>
-<script src="assets/vendor/nav/jquery.nav.js"></script>
-<script src="assets/vendor/owl-carousel/owl.carousel.min.js"></script>
-<script src="assets/vendor/parallax-js/parallax.min.js"></script>
-<script src="assets/vendor/smooth/smooth.js"></script>
-<script src="assets/vendor/sticky/jquery.sticky.min.js"></script>
-<script src="assets/vendor/touchspin/touchspin.js"></script>
-<script src="assets/vendor/typist/typist.js"></script>
-<script src="assets/vendor/visible/visible.js"></script>
-<script src="assets/vendor/wow/wow.min.js"></script>
-<script src="assets/js/scripts.js"></script>
-<!-- endinject -->
+        <!--hero section-->
+        <div id="fullscreen-banner" class="full-banner vertical-align text-center banner-02">
+            <div class="container-mid">
+                <div class="container">
+                    <div class="banner-title light-txt">
+                        <h1 class="text-uppercase"><b>Innovate <br/> Build </br> Connect <br/></b></h1>
+                        <p>&nbsp;</p>
+                        <h3 class="text-uppercase">Improving customer experience and <br/>contact centre efficiency with</h3>
+                        <h3 class="text-uppercase">AWS and Amazon Connect </h3>
+                    </div>
+                </div>
+            </div>
+
+            <!--scroll down-->
+            <div class="banner-scroll">
+                <a href="#vision" data-scroll>
+                    <span class="scroll-down"></span>
+                    scroll
+                </a>
+            </div>
+            <!--scroll down-->
+
+        </div>
+        <!--hero section-->
+
+        <!--body content start-->
+        <section class="body-content">
+
+            <!--img post-->
+            <div class="container" id="vision">
+                <div class="row page-content">
+                    <div class="post-list-aside">
+                        <div class="post-single">
+                            <div class="col-md-6">
+                                <div class="post-img text-center">
+                                    <ul class="slides">
+                                        <li data-thumb="assets/img/post/p1.jpg">
+                                            <img src="assets/img/post/cx-omnichannel.png" alt="">
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="">
+                                    <h4 class="text-uppercase">
+                                         Contact Centre role is changing
+                                    </h4>
+                                    <p>
+                                        Being supported by the right technology and digital platform is more essential than ever for businesses. It helps you to provide a great frictionless customer experience as well as improving your employees efficiency.
+                                    </p>
+                                    <p>
+                                        By creating a strong cloud-native foundation, contact centres will be able to level up on their speed, elasticity and self-service – all of which is required to succeed and adapt in this ever-changing world. No matter where the agents are based, a cloud-native foundation allows employees to communicate seamlessly with customers.
+                                    </p>
+                                    <p>
+                                        Our aim is to help businesses navigate and find success with an omnichannel customer experience that combines both voice and digital channels. Using this as an integral part of the customer experience strategy will drive business results and empower your workforce.
+                                    </p>
+                                    <p>
+                                        We believe that Amazon Connect and AWS are the stand-out platforms for delivering great omnichannel customer experience while improving the agents’ efficiency. With our expertise and experience, we can help companies shift to a new platform and get the results they want.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Why AWS -->
+
+            <!--feature-->
+            <div id="services" class="page-content gray-bg">
+
+                <div class="container">
+                    <!--feature border box start-->
+                    <div class="row">
+                        <div class="heading-title text-center">
+                            <h3 class="text-uppercase">How we can help</h3>
+                            <!-- p class="half-txt p-top-30">
+                            </p-->
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="featured-item feature-border-box text-left wow fadeInRight">
+                                <div class="icon">
+                                    <i class="icon-tools2"></i>
+                                </div>
+                                <div class="title text-uppercase">
+                                    <h4>Strategy & Architecture</h4>
+                                </div>
+                                <div class="desc">
+                                    <p>
+                                        Need help with defining strategy & architecture?
+                                    </p>
+                                    <a href="#services-architecture" class="p-read-more">Read More <i class="icon-arrows_slim_right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="featured-item feature-border-box text-left wow fadeInLeft">
+                                <div class="icon">
+                                    <i class="icon-profile-female"></i>
+                                </div>
+                                <div class="title text-uppercase">
+                                    <h4>Team of Experts</h4>
+                                </div>
+                                <div class="desc">
+                                    <p>
+                                        Looking for Amazon Connect and AWS expertise?
+                                    </p>
+                                    <a href="#services-team" class="p-read-more">Read More <i class="icon-arrows_slim_right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="featured-item feature-border-box text-left wow fadeInUp">
+                                <div class="icon">
+                                    <i class="icon-basic_accelerator"></i>
+                                </div>
+                                <div class="title text-uppercase">
+                                    <h4>Project delivery</h4>
+                                </div>
+                                <div class="desc">
+                                    <p>
+                                        Need help delivering your project or an initiative?
+                                    </p>
+                                    <a href="#services-projects" class="p-read-more">Read More <i class="icon-arrows_slim_right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--feature border box end-->
+                </div>
+            </div>
+            <!--feature-->
+
+            <div class="page-content gray-bg" id="services-architecture">
+                <!--post style 5 start-->
+                <div class="post-list-aside">
+                    <div class="container">
+                        <div class="post-single">
+                            <div class="col-md-5">
+                                <div class="post-img">
+                                    <img src="assets/img/post/architecture.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="post-desk">
+                                    <div class="m-bot-30">
+                                        <h4 class="text-uppercase">
+                                            Strategy & Architecture
+                                        </h4>
+                                    </div>
+
+                                    <p>
+                                        We are here to help you define and create architecture that will bring your business to the level of agility that used to only exist in the digital world. Concepts like continuous delivery and deployment, infrastructure-as-a-code and devops are now available for your contact centre as well. Our team of experts can help you understand how all these building blocks fit together and leverage your investment into AWS.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!--post style 5 end-->
+            </div>
+
+            <div class="page-content" id="services-team">
+                <!--post style 5 start-->
+                <div class="post-list-aside">
+                    <div class="container">
+                        <div class="post-single">
+                            <div class="col-md-7">
+                                <div class="post-desk">
+                                    <div class="m-bot-30">
+                                        <h4 class="text-uppercase">
+                                            Scaling Expert Teams
+                                        </h4>
+                                    </div>
+                                    <p>
+                                        Finding great people for your business is hard. Especially since today’s experts need to have a wide range of skills, not only AWS or tech knowledge. That’s where we come into the picture. Our team members are more than Amazon Connect experts. Their skills and level of experience goes further and wider. Whether you want one person to join your team or even a whole team of experts, we’re here to help.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="post-img">
+                                    <img src="assets/img/post/experts.jpg" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!--post style 5 end-->
+            </div>
+
+            <div class="page-content gray-bg" id="services-projects">
+                <!--post style 5 start-->
+                <div class="post-list-aside">
+                    <div class="container">
+                        <div class="post-single">
+                            <div class="col-md-5">
+                                <div class="post-img">
+                                    <img src="assets/img/post/projects.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="post-desk">
+                                    <div class="m-bot-30">
+                                        <h4 class="text-uppercase">
+                                            Project delivery
+                                        </h4>
+                                    </div>
+                                    <p>
+                                        Perhaps you want to ramp up the number of teams working on your project, without going through the hassle of finding the right people. Whether you have a large project with a lot of moving parts, or a small piece of work you need to get done on your platform, we can handle it. We’ll provide you with a high performing team and a seamless project delivery.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!--post style 5 end-->
+            </div>
+
+            <div class="dark-bg page-content" id="skills">
+                <div class="container">
+                    <div class="row">
+                        <div class="heading-title text-center light-txt">
+                            <h3 class="text-uppercase light-txt">Why work with us</h3>
+                            <div class="half-txt light-txt">Our expertise with the Amazon Connect and AWS means we’ve been there, done that when it comes to these cloud technologies. Whether you’re looking leverage Amazon Connect and AWS for innovation, agility, cost savings, contact centre efficiency, or all of the above, we know you want to do it right – and we’ll help you get there..</div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="light-txt">
+                                <h4 class="text-uppercase light-txt">
+                                    Expertise
+                                </h4>
+
+                                <p>Our team is a group of talented technology people who have been continously learning their craft for the last 15+ years</p>
+                                <ul class="m-bot-30 inline-block">
+                                    <li>
+                                        AWS Certified
+                                    </li>
+                                    <li>
+                                        Amazon Connect experts
+                                    </li>
+                                    <li>
+                                        Application Development
+                                    </li>
+
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class=" light-txt">
+                                <h4 class="text-uppercase light-txt">
+                                    First-Hand experience
+                                </h4>
+
+                                <p>We have been there and done that when it comes to Amazon Connect, AWS and software development</p>
+                                <ul class="m-bot-30 inline-block">
+                                    <li>
+                                        Omni-channel self-service in IVR and digital channels
+                                    </li>
+                                    <li>
+                                        Contact Centre migration from Avaya to Amazon Connect
+                                    </li>
+                                    <li>
+                                        Micro-services and Micro-frontends application architectures
+                                    </li>
+                                    <li>
+                                        Re-archiecting on-prem applications into cloud-native AWS architecture
+                                    </li>
+
+                                </ul>
+                                <div>
+                                    <a href="#experience" class="btn btn-small btn-rounded btn-dark-solid  "> FInd out more </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class=" light-txt">
+                                <h4 class="text-uppercase  light-txt">
+                                    Agility
+                                </h4>
+
+                                <p>Agile is in our blood, we are focusing on delivering business value frequently and with high quality</p>
+                                <ul class="m-bot-30 inline-block">
+                                    <li>
+                                        CI/CD
+                                    </li>
+                                    <li>
+                                        DevOps
+                                    </li>
+                                    <li>
+                                        Agile teams
+                                    </li>
+
+                                </ul>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Tech stack -->
+            <div class="page-content gray-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="heading-title text-center">
+                            <h3 class="text-uppercase">Tech Stack</h3>
+                        </div>
+                        <!--feature border box start-->
+                        <div class="feature-box-grid">
+                            <div class="col-md-3">
+                                <div class="featured-item border-box text-center">
+                                    <div class="icon">
+                                        <i class="icon-basic_headset"></i>
+                                    </div>
+                                    <div class="title text-uppercase">
+                                        <h4>Contact Centre</h4>
+                                    </div>
+                                    <div class="desc">
+                                        Amazon Connect <br/>
+                                        Intelligent Voice <br/>
+                                        Smart routing
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="featured-item border-box text-center">
+                                    <div class="icon">
+                                        <i class="icon-cloud"></i>
+                                    </div>
+                                    <div class="title text-uppercase">
+                                        <h4>AWS</h4>
+                                    </div>
+                                    <div class="desc">
+                                        Lambda <br/>
+                                        Lex <br/>
+                                        Polly <br/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="featured-item border-box text-center">
+                                    <div class="icon">
+                                        <i class="icon-lock"></i>
+                                    </div>
+                                    <div class="title text-uppercase">
+                                        <h4>Security</h4>
+                                    </div>
+                                    <div class="desc">
+                                        Auth0 <br/>
+                                        Okta <br/>
+                                        OneLogin
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="featured-item border-box text-center">
+                                    <div class="icon">
+                                        <i class="icon-genius"></i>
+                                    </div>
+                                    <div class="title text-uppercase">
+                                        <h4>Languages</h4>
+                                    </div>
+                                    <div class="desc">
+                                        React <br/>
+                                        Python <br/>
+                                        Java
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--feature border box end-->
+                    </div>
+                </div>
+            </div>
+            <!-- experience accordion -->
+
+            <!-- experience accordion -->
+            <div class="col-md-12" id="experience">
+
+                <div class="page-content">
+                    <div class="text-center">
+                        <h3 class="text-uppercase">Our work</h3>
+                        <p class="half-txt">Over the years we have been involved in many exciting projects that have significantly improved customer experiences and delivered benefits to the organisations. Here are a few of the most recent ones..</p>
+                    </div>
+
+                    <!-- accordion 2 start-->
+                    <dl class="accordion p-top-30">
+                        <dt>
+                            <a href="">Self-Service via Voice and Digital channels using Amazon Connect</a>
+                        </dt>
+                        <dd>
+                            <p>
+                                Our work with a large energy retailer involved implementing self-service flows in IVR and digital channels using Amazon Connect and AWS. One of the main project goals was to uplift the self-service experience through IVR; and to enable seamless transition of the customer from IVR to digital channel or to an agent.
+                            </p>
+                            <p>
+                                Self-service IVR flows included experiences that made it easier for customers to extend an existing energy plan. Instead of having to call up, go through messaging with an agent and talking about the plan, this was implemented in Connect to the point where almost the whole process was done automatically. The result of this flow was very positive, with customers giving the experience nine out of ten for ease.
+                            </p>
+                            <p>
+                                In another flow, customers were prompted to update their details, through outbound messaging. Using phone numbers for authentication, as well as account number and date of birth, customers could update their credit card expiry. There was a high level of containment for customers, meaning that many of them preferred to stay within the IVR process rather than speak to an agent.
+                            </p>
+                            <p>
+                                Smart routing was also implemented in Connect to reduce the number of times a call is transferred between different places in the contact centre. For example, if people are moving house, the smart routing could determine whether the move was a so-called simple or complex move and connect the customer to the right agent.
+                            </p>
+                        </dd>
+                        <dt>
+                            <a href="">Contact Centre Migration from Avaya to Amazon Connect</a>
+                        </dt>
+                        <dd>
+                            <p>
+                                Outdated technology, ageing infrastructure, poor customer experience and contact centre agent inefficiencies were just some of the challenges that this Australian household name company faced when they decided to migrate their contact centre to Amazon Connect. By doing so, the goal was to create a powerful and simplified experience for customers as well as improve the agents efficiency. They wanted to achieve this by focusing on automating tasks, smarter call routing and more agile and flexible technology.
+                            </p>
+                            <p>
+                                Amazon Connect together with the power of AWS has decreased average handling time (AHT) for the calls. This has been done by using smarter routing, authenticating the caller identity before the call is connected to an agent and integrating with the CRM system which brings up the customer details. Next best actions are also displayed, allowing agents to offer customers products and services that are relevant to them.
+                            </p>
+                            <p>
+                                Ultimately, Amazon Connect has helped this company reduce call transfers, speed up resolution times and free up agents to handle calls of a higher complexity thus significantly improving not just the overall customer experience but also the efficiency of their contact centre.
+                            </p>
+                        </dd>
+                        <dt>
+                            <a href="">From 1 deployment a week to 30 per day with AWS</a>
+                        </dt>
+                        <dd>
+                            <p>
+                                When the prices for the product you are offering are the same as your competitors, or at least very similar, the only thing to differentiate you is the service and the customer experience. Typically, the customer will choose the provider with the easiest sign-up and the smoothest self-service experience provided in the channel of their choice – be it a website, an app, chat or voice.
+                            </p>
+                            <p>
+                                The digital platforms of this well-known company were lacking in many ways, not least in the release of new features – from complexity during the development to having to involve a group of people for most of the day to release into production.
+                            </p>
+                            <p>
+                                Over the 18 months, the company has gone through substantial changes ranging from architecture of the platforms to automation and team culture.
+                            </p>
+                            <p>
+                                The philosophy behind the change was twofold. Firstly it was to create a customer-first mindset and align the teams with the customer journeys. And secondly to create a flexible cloud-native application architecture based on AWS services. This allows self-service features to be reused across multiple channels – from web, native apps and Amazon Connect-based IVR to voice assistants such as Amazon Alexa and chatbots in the future.
+                            </p>
+                            <p>
+                                These changes have allowed the team to radically scale up without decrease in efficiency and to go from one deployment per week to up to 30 or 40 per day. The speed of which they can release new features now isn’t limited to how fast the team can do it, but rather how ready the customers and the organisation is to accept the change.
+                            </p>
+                        </dd>
+
+                        <dt>
+                            <a href="">AWS and cloud-native applications enabling highly agile organsations</a>
+                        </dt>
+                        <dd>
+                            <p>
+                                To succeed in fast-paced and competitive software-driven markets, companies must rethink how they design and use applications. Cloud-native application development is an approach to building and updating apps quickly, while improving quality and enhancing safety.
+                            </p>
+                            <p>
+                                Being much more than just a set of tools, DevOps is a culture of cross-functional teams that deliver high business value. AWS is the standout platform providing a set of services, technologies and tools as a foundation for the DevOps culture and enabling organisations to be highly agile and respond to customer needs and market demands.
+                            </p>
+                            <p>
+                                A well-known company we were working with, have embarked on a journey to transform their applications from an “on-premise” architecture to a cloud-native architecture utilising AWS services and establishing a DevOps culture for their development and operations team.
+                            </p>
+                            <p>
+                                The result was a successful migration of all applications into AWS and highly agile DevOps teams which allowed this company to become faster and more agile in the way they deliver features to their customers. With AWS and DevOps, they were able to reduce the time between the idea stage and the delivery – with design, development and release being achieved quickly, sometimes within hours.
+                            </p>
+                        </dd>
+                    </dl>
+                    <!-- accordion 2 end-->
+
+                </div>
+
+
+            </div>
+            <!-- experience accordion -->
+
+
+            <!--team-->
+            <div class="page-content gray-bg" id="team">
+                <div class="container">
+                    <div class="row">
+                        <div class="heading-title text-center">
+                            <h3 class="text-uppercase"> Our Leaders and Advisors </h3>
+                            <p class="p-top-30 half-txt">
+                                Passion, can-do attitude and technical expertise.
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="team-member wow fadeInLeft">
+                                <div class="team-img">
+                                    <img src="assets/img/team/kirill-elantsev.jpeg" alt="">
+                                </div>
+                            </div>
+                            <div class="team-title">
+                                <h5>Kirill Elantsev</h5>
+                                <span>Advisor - Sales &amp; Solutions</span>
+                                <div class="t-s-link">
+                                    <a href="https://www.linkedin.com/in/kelans/"><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="team-member wow fadeInUp">
+                                <div class="team-img">
+                                    <img src="assets/img/team/taras-filonenko.jpeg" alt="">
+                                </div>
+                            </div>
+                            <div class="team-title">
+                                <h5>Taras Filonenko</h5>
+                                <span>CTO</span>
+                                <div class="t-s-link">
+                                    <a href="https://www.linkedin.com/in/taras-filonenko-68790a2/"><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="team-member wow fadeInRight">
+                                <div class="team-img">
+                                    <img src="assets/img/team/evgueni-iakhontov.jpeg" alt="">
+                                </div>
+                            </div>
+                            <div class="team-title">
+                                <h5>Evgueni Iakhontov</h5>
+                                <span>Advisor & Board Member</span>
+                                <div class="t-s-link">
+                                    <a href="https://www.linkedin.com/in/evguenii/"><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--team-->
+
+
+
+            <!--contact-->
+            <div class="page-content" id="contact">
+
+                <div class="container">
+
+                    <div class="heading-title text-center ">
+                        <h3 class="text-uppercase">get in touch</h3>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="featured-item text-center">
+                                <div class="icon">
+                                    <i class="icon-linkedin"></i>
+                                </div>
+                                <div class="title text-uppercase">
+                                    <h4>connect with us</h4>
+                                </div>
+                                <div class="desc">
+                                    <div class="s-link">
+                                        <a href="https://www.linkedin.com/company/in2cloud-io/">LinkedIn</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="featured-item text-center">
+                                <div class="icon">
+                                    <i class="icon-mobile"></i>
+                                </div>
+                                <div class="title text-uppercase">
+                                    <h4>call us</h4>
+                                </div>
+                                <div class="desc">
+                                    +61 417 463 650
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="featured-item text-center">
+                                <div class="icon">
+                                    <i class="icon-envelope"></i>
+                                </div>
+                                <div class="title text-uppercase">
+                                    <h4>email us</h4>
+                                </div>
+                                <div class="desc">
+                                    <a href="mailto:experts@in2cloud.io">experts@in2cloud.io</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="featured-item text-center">
+                                <div class="icon">
+                                    <i class="icon-map"></i>
+                                </div>
+                                <div class="title text-uppercase">
+                                    <h4>location</h4>
+                                </div>
+                                <div class="desc">
+                                    We are based in <br/>
+                                    Melbourne, Australia
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!--contact-->
+
+        </section>
+        <!--body content end-->
+
+        <!--footer 1 start -->
+        <footer id="footer" class="gray-bg text-center footer-1">
+            <div class="container">
+                <div class="copyright">
+                    in2cloud
+                </div>
+            </div>
+        </footer>
+        <!--footer 1 end-->
+    </div>
+
+
+    <!-- inject:js -->
+    <script src="assets/vendor/modernizr/modernizr.js"></script>
+    <script src="assets/vendor/jquery/jquery-1.10.2.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/vendor/bootstrap-validator/validator.min.js"></script>
+    <script src="assets/vendor/breakpoint/breakpoint.js"></script>
+    <script src="assets/vendor/count-to/jquery.countTo.js"></script>
+    <script src="assets/vendor/countdown/jquery.countdown.js"></script>
+    <script src="assets/vendor/easing/jquery.easing.1.3.js"></script>
+    <script src="assets/vendor/easy-pie-chart/jquery.easypiechart.min.js"></script>
+    <script src="assets/vendor/elasic-slider/jquery.eislideshow.js"></script>
+    <script src="assets/vendor/flex-slider/jquery.flexslider-min.js"></script>
+    <script src="assets/vendor/gmap/jquery.gmap.min.js"></script>
+    <script src="assets/vendor/images-loaded/imagesloaded.js"></script>
+    <script src="assets/vendor/isotope/jquery.isotope.js"></script>
+    <script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/vendor/mailchimp/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/vendor/menuzord/menuzord.js"></script>
+    <script src="assets/vendor/nav/jquery.nav.js"></script>
+    <script src="assets/vendor/owl-carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/parallax-js/parallax.min.js"></script>
+    <script src="assets/vendor/smooth/smooth.js"></script>
+    <script src="assets/vendor/sticky/jquery.sticky.min.js"></script>
+    <script src="assets/vendor/touchspin/touchspin.js"></script>
+    <script src="assets/vendor/typist/typist.js"></script>
+    <script src="assets/vendor/visible/visible.js"></script>
+    <script src="assets/vendor/wow/wow.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <!-- endinject -->
 </body>
 
 </html>
