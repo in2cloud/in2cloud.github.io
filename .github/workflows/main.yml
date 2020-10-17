@@ -25,4 +25,5 @@ jobs:
           MERGE_LABELS: ""
           UPDATE_LABELS: ""
           MERGE_RETRIES: "10"
+          MERGE_RETRY_SLEEP: "10000"
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
