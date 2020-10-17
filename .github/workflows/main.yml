@@ -1,6 +1,4 @@
 name: automerge
-env:
-  MERGE_LABELS: ""
 on:
   pull_request:
     types:
@@ -24,4 +22,5 @@ jobs:
         uses: "pascalgn/automerge-action@v0.12.0"
         if: github.actor == 'evgueni-iakhontov' || github.actor == 'tarasfilonenko'
         env:
+          MERGE_LABELS: ""
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
