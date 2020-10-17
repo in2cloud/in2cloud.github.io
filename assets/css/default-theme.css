@@ -10,6 +10,20 @@ Default theme  Stylesheet
     background: #10103B;
 }
 
+.heading-title h1,
+.heading-title h2,
+.heading-title h3,
+.heading-title h4,
+.heading-title h5,
+.heading-title h6,
+.heading-title-alt h1,
+.heading-title-alt h2,
+.heading-title-alt h3,
+.heading-title-alt h4 {
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
 
 ::-moz-selection {
     color: #fff;
