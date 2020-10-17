@@ -23,4 +23,5 @@ jobs:
         if: github.actor == 'evgueni-iakhontov' || github.actor == 'tarasfilonenko'
         env:
           MERGE_LABELS: ""
+          UPDATE_LABELS: ""
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
